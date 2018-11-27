@@ -1,11 +1,3 @@
 <h1>{{title | titlecase}}</h1>
-
-<ul>
-  <li *ngFor="let carPart of carParts">
-    <h2>{{carPart.name}}</h2>
-    <p>{{carPart.description}}</p>
-    <p *ngIf="carPart.inStock > 0">{{carPart.inStock}} in Stock</p>
-    <p *ngIf="carPart.inStock === 0">Out of Stock</p>
-  </li>
-</ul>
-
+<!-- 새로만든 컴퍼넌트의 셀렉터를 추가 -->
+<app-carparts></app-carparts>

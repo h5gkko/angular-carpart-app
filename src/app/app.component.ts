@@ -19,27 +19,5 @@ export class AppComponent {
     'inStock': 5
   };
 
-// 변수 사용 안하면 회색으로 나옴, webstorm에서 제공하는 기능
-  carParts = [
-    {
-      'id': 1,
-      'name': 'Super Tires',
-      'description': 'These tires are the very best',
-      'price': 4.99,
-      'inStock': 5
-    },
-    {
-      'id': 2,
-      'name': 'Reinforced Shocks',
-      'description': 'Shocks made from kryptonite',
-      'price': 9.99,
-      'inStock': 4
-    },
-    {
-      'id': 3,
-      'name': 'Padded Seats',
-      'description': 'Super soft seats for a smooth ride',
-      'price': 24.99,
-      'inStock': 0
-    };
+
 }
